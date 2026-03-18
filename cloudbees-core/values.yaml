@@ -12,7 +12,7 @@ CascBundleService:
     enabled: false
 OperationsCenter:
   Enabled: false
-  HostName: "test"
+  HostName: "test2"
   Protocol: https
   Platform: eks
   Ingress:
