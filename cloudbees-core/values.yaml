@@ -1,0 +1,23 @@
+Subdomain: true
+Master:
+  Enabled: true
+  OperationsCenterNamespace: fleet-test
+Agents:
+  Enabled: false
+CascBundleService:
+  enabled: true
+  ingress:
+    enabled: false
+OperationsCenter:
+  Enabled: false
+  HostName: "test.agrob.ps.beescloud.com"
+  Protocol: https
+  Platform: eks
+  Ingress:
+    Class: alb
+rbac:
+  installCluster: true
+Persistence:
+  Size: "5Gi"
+Hibernation:
+  Enabled: false
