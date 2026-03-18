@@ -4,6 +4,8 @@ Master:
   OperationsCenterNamespace: fleet-test
 Agents:
   Enabled: false
+  SeparateNamespace:
+    Enabled: false
 CascBundleService:
   enabled: true
   ingress:
